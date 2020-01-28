@@ -14,38 +14,80 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 Edit README.md to answer the following questions:
 
 - Open main01.py. Before running it, what do you expect this program to do?
+# i expect it to ask the question, but beyond that i do not know.
   - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
+  # i answered the question and it repeated it again as i typed more colors. it paused at orange. 
   - What do you think the program did with what you typed in answer to the question?
+# i assume it kept looking for the answer, and did not want the answer i gave. 
+
 - Open main02.py. Before running it, describe how this is different than main01.py.
+# it has the new element of color input!
   - What do you think the color = input() will do?
+  # define what i type as the new color!
   - Run the program in the terminal and answer the question. Did the program do what you expected?
+  # after i answered green, it typed green after me! 
+
 - Open main03.py. Before running it, describe how this is different than main02.py.
+# it has a proper answer set up!
   - What is happening on lines 9–12?
+  # 9-12 are showing an if-else statement 
   - Why are lines 10 and 12 indented?
+  # because they are connected to the lines above them in function
   - Run the program and answer the question. What happens if you don’t capitalize Red?
+  # gives wrong if it's not capitalized
   - What does this tell you about "color"?
-- Open main04.py. Before running it, describe how this is different than main03.py.
+  # it's just a variable like everything else, and must be defined further
+
+- Open main04.py. Before running it, describe how this is diffent than main03.py.
+# it seems to be that they are adjusting for capitalization
   - What problem is this trying to solve?
+  # they are solving capitilization mistakes
   - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+  # the program still says wrong with anything except "red" or "Red"
+
 - Open main05.py. What do you expect line 9 to do?
+# i expect it to try and only allow for lowercase red again?
   - What problem is it trying to solve?
+  # it seems to be attempting to address the problem with capitals. 
   - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
+# woah! that totally solved the problem! but spaces causes an incorrect
+
  - Open main06.py. How is line 9 different than in main05.py?
+ # line nine now has the ".strip" function
    - What would you guess .strip() is doing?
+   # i think it might take care of the spaces problem?
    - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+   # it fixes the spaces problem, but if i type red like "r e d" it doesnt get it 
+   
  - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
+ # this time it has a pink option!
    - What is happening on line 12?
+   # it has an elif which seems to be an else-if? for pink! 
    - Run the program and answer the question.
+# pink gives the expected answer of "close!"
+
  - Open main08.py. What is the purpose of line 9?
+ # it seems to be to establish this as a constant loop until right answer?
    - Why are lines 10–17 indented?
+   # they are tied to line 9 in function 
    - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+   # the program now asks until you get it right
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
+   # it calls me wrong forever :"(
+
  - Open main09.py. What is happening on line 13?
+ # line 13 appears to be a counter that increases with every loop
    - What is the purpose of “count”?
+   # to keep track of the amount of times you guess
    - What is happening on line 22?
+   # there is no line 22? but line 21 shows the counter result
    - Run the program.
+# the program works as expected and informs correctly of the guesses 
+
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
+ # done 
  - *Extra credit:* open main11.py. What is happening on lines 6-11?
+ # first it defines choose color as last color, then lists colors, assigns c as random choice, with last color being a randomized color due to c, then finally returns c. 
   
 Commit your changes and push them back to the repository.
  
